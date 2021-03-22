@@ -1,0 +1,38 @@
+.container{
+        position: relative;
+        text-align: center;
+        font-family: 'Cormorant Garamond', serif;
+    }
+.pregunta{
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+.container > #resp {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0;
+    margin-top: -9px;
+}
+
+.qInput{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#texto{
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    height: 50px;
+    width: 400px;
+    font-size:30pt;
+}
+#boton{
+
+    font-family: 'Cormorant Garamond', serif;
+    height: 55px;
+    width: 200px;
+    font-size:15pt;
+}
